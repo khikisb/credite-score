@@ -1,18 +1,18 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sklearn
+import scikit-learn
 
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
+from scikit-learn.preprocessing import MinMaxScaler
+from scikit-learn.model_selection import train_test_split
 from collections import OrderedDict
-from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import BaggingClassifier
-from sklearn.datasets import make_classification
-from sklearn.svm import SVC
+from scikit-learn.naive_bayes import GaussianNB
+from scikit-learn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
+from scikit-learn.neighbors import KNeighborsClassifier
+from scikit-learn.tree import DecisionTreeClassifier
+from scikit-learn.ensemble import BaggingClassifier
+from scikit-learn.datasets import make_classification
+from scikit-learn.svm import SVC
 
 st.write(""" 
 # APLIKASI CREDIT BANK
