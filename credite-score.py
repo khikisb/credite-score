@@ -15,7 +15,7 @@ from sklearn.svm import SVC
 
 st.write(""" 
 # APLIKASI CREDIT BANK
-Oleh Muhamad Nizam
+Oleh Okhi Sahrul Barkah
 """)
 
 
