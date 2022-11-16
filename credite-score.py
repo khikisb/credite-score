@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import scikit-learn
 
 from scikit-learn.preprocessing import MinMaxScaler
 from scikit-learn.model_selection import train_test_split
